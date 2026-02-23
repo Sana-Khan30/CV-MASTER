@@ -1,6 +1,5 @@
 import React from 'react';
 import { AlertCircle, RefreshCw, Home } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -27,7 +26,7 @@ class ErrorBoundary extends React.Component {
   render() {
     if (this.state.hasError) {
       return (
-        <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-slate-50 to-red-50 px-4">
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-red-50 px-4">
           <div className="max-w-md w-full bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 text-center">
             <div className="inline-flex p-4 bg-red-100 rounded-2xl text-red-600 mb-4">
               <AlertCircle size={40} />

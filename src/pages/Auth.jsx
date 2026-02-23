@@ -51,7 +51,7 @@ const Carousel = () => {
       features: ["Sleek Design", "Modern Typography", "Tech-Ready"],
       preview: (
         <div className="w-20 h-28 bg-white rounded-sm shadow-lg overflow-hidden">
-          <div className="h-8 bg-linear-to-r from-blue-500 to-blue-600"></div>
+          <div className="h-8 bg-gradient-to-r from-blue-500 to-blue-600"></div>
           <div className="p-2 space-y-1.5">
             <div className="h-1.5 w-14 bg-blue-300 rounded"></div>
             <div className="h-1 w-10 bg-blue-200 rounded"></div>
@@ -71,7 +71,7 @@ const Carousel = () => {
       features: ["Eye-Catching", "Unique Layout", "Bold"],
       preview: (
         <div className="w-20 h-28 bg-white rounded-sm shadow-lg overflow-hidden">
-          <div className="h-2 bg-linear-to-r from-purple-500 to-fuchsia-500"></div>
+          <div className="h-2 bg-gradient-to-r from-purple-500 to-fuchsia-500"></div>
           <div className="p-2 space-y-1.5">
             <div className="h-2 w-12 bg-purple-300 rounded-full"></div>
             <div className="h-1 w-16 bg-purple-200 rounded"></div>
@@ -291,7 +291,7 @@ const Benefits = () => {
   ];
 
   return (
-    <div className="py-20 bg-linear-to-br from-blue-600 via-indigo-600 to-purple-700 relative overflow-hidden">
+    <div className="py-20 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 relative overflow-hidden">
       {/* Background Decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 left-1/4 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
@@ -594,7 +594,7 @@ const AuthModal = ({ isOpen, onClose, initialMode }) => {
 
 // Footer Component
 const Footer = () => (
-    <footer className="bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 relative overflow-hidden">
+  <footer className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 relative overflow-hidden">
     {/* Background Decorations */}
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/10 rounded-full blur-3xl"></div>
@@ -606,7 +606,7 @@ const Footer = () => (
         {/* Brand */}
         <div className="md:col-span-2">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-10 h-10 bg-linear-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
               <FileText className="text-white" size={22} />
             </div>
             <span className="text-2xl font-black">CV Master</span>
@@ -688,7 +688,7 @@ const Auth = () => {
     }
   };
 
-return (
+  return (
     <div className="min-h-screen bg-slate-50">
       <FloatingStyles />
       {/* Navbar */}
@@ -699,7 +699,7 @@ return (
       />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-linear-to-br from-slate-900 via-slate-800 to-blue-900 overflow-hidden">
+      <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 overflow-hidden">
         {/* Background Decorations */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
           <div className="absolute top-20 left-[-10%] w-[40%] h-[40%] bg-blue-500/20 rounded-full blur-3xl"></div>
@@ -716,7 +716,7 @@ return (
               </div>
               <h1 className="text-5xl lg:text-6xl font-black text-white mb-6 leading-tight">
                 Create Your{' '}
-                <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-purple-400">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
                   Perfect Resume
                 </span>{' '}
                 in Minutes
@@ -786,7 +786,7 @@ return (
           </p>
           <button 
             onClick={() => handleAuthClick('signup')}
-            className="px-12 py-5 bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold rounded-2xl transition-all shadow-xl shadow-blue-600/25 text-lg"
+            className="px-12 py-5 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold rounded-2xl transition-all shadow-xl shadow-blue-600/25 text-lg"
           >
             Start Building Now - It's Free!
           </button>

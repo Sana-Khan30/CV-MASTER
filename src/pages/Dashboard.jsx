@@ -38,7 +38,7 @@ const TemplateThumbnail = ({ template }) => {
   };
 
   return (
-    <div className={`w-full h-full flex items-center justify-center bg-linear-to-br ${getTemplateStyles()}`}>
+    <div className={`w-full h-full flex items-center justify-center bg-gradient-to-br ${getTemplateStyles()}`}>
       <div className="w-16 h-20 bg-white rounded-sm shadow-sm flex flex-col overflow-hidden">
         <div className={`h-2 ${getAccentColor()}`}></div>
         <div className="flex-1 p-1 space-y-1">
